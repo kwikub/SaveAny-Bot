@@ -71,3 +71,6 @@ require (
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+// Personal fork - tracking upstream krau/SaveAny-Bot
+// Module path kept as upstream to simplify merging upstream changes
