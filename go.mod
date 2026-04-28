@@ -73,4 +73,5 @@ require (
 )
 
 // Personal fork - tracking upstream krau/SaveAny-Bot
-// Module path kept as upstream to simplify merging upstream changes
+// Module path kept as upstream to avoid import path issues when testing upstream changes
+// TODO: investigate replacing go-sqlite3 with a pure-Go alternative to simplify cross-compilation
